@@ -31,7 +31,7 @@ li {
 }
 
 table {
-    page-break-inside: avoid;	
+    page-break-inside: avoid;
 }
 
 #container {
@@ -42,21 +42,21 @@ table {
 }
 
 .section {
-	border: 1px solid #d0d0d0;	
+	border: 1px solid #d0d0d0;
 	width: 1028px;
 	padding: 0 23px;
 	float: left;
 	/*margin: 20px 0 0; */
-	position: relative;	
+	position: relative;
 	font-size: 16px;
 	line-height: 28px;
 }
 .section:before {
-	content: "";	
+	content: "";
 	page-break-inside: avoid!important;;
 	width: 100%;
 	height: 250px;
-	position: absolute;	
+	position: absolute;
 	z-index: -1;
 	left: 0;
 	top: -5px;
@@ -65,7 +65,7 @@ table {
 .section h2 {
 	font-size: 22px;
 	font-weight: normal;
-	color: #00acde;	
+	color: #00acde;
 	display: block;
 	height: 22px;
 	padding: 27px 50px;
@@ -94,22 +94,22 @@ table {
 	float: left;
 }
 
-.description p{ 
+.description p{
 	max-width:700px;
 	font-size: 20px;
 	word-wrap:break-word;
 
 }
 
-.description li{ 
+.description li{
 	max-width:870px;
 	font-size: 16px;
 	word-wrap:break-word;
 	/*margin: 0 0 7px 0;*/
-	
+
 }
 
-#section2 p{ 
+#section2 p{
 	max-width:1000px;
 	word-wrap:break-word;
 	margin-top: 0px;
@@ -167,7 +167,31 @@ td.longWord {
 #section1 table td.label {
 	font-weight: bold;
 	/*padding-right: 35px;*/
-	
+
+}
+
+#section5 table td.label {
+	font-weight: bold;
+	/*padding-right: 35px;*/
+
+}
+
+#section5 {
+	padding-bottom: 7px;
+}
+
+#section5 table {
+	float: left;
+	margin-right: 150px;
+	max-width: 405px;
+	border-collapse: collapse;
+	font-size: 18px;
+}
+#section5 table.rightTable {
+	margin-right: 0;
+}
+#section5 table td {
+	padding-bottom: 10px;
 }
 
 #section2 {
@@ -220,7 +244,7 @@ table.skills.even {
 .skillTitle {
 	vertical-align: top;
 	font-size: 18px;
-	font-weight: 700; 
+	font-weight: 700;
 	padding-bottom: 15px;
 	color: #333132;
 	padding-top: 4px;
@@ -271,7 +295,7 @@ table.skills.even {
   max-width: 100px;
 }
 
-.side-projects p{ 
+.side-projects p{
 	max-width:870px;
 	font-size: 16px;
 	word-wrap:break-word;
@@ -279,10 +303,10 @@ table.skills.even {
 
 }
 
-.side-projects li{ 
+.side-projects li{
 	max-width:870px;
 	font-size: 16px;
 	word-wrap:break-word;
 	margin: 0 0 0px 20px;
-	
+
 }
