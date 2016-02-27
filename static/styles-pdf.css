@@ -31,7 +31,7 @@ li {
 }
 
 table {
-    page-break-inside: avoid;	
+    page-break-inside: avoid;
 }
 
 #container {
@@ -42,33 +42,33 @@ table {
 }
 
 .section {
-	border: 1px solid #d0d0d0;	
+	border: 1px solid #d0d0d0;
 	width: 1028px;
 	padding: 0 23px;
 	float: left;
 	/*margin: 20px 0 0; */
-	position: relative;	
-	font-size: 16px;
-	line-height: 28px;
+	position: relative;
+	font-size: 14px;
+	/*line-height: 28px;*/
 }
 .section:before {
-	content: "";	
+	content: "";
 	page-break-inside: avoid!important;;
 	width: 100%;
 	height: 250px;
-	position: absolute;	
+	position: absolute;
 	z-index: -1;
 	left: 0;
 	top: -5px;
 }
 
 .section h2 {
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: normal;
-	color: #00acde;	
+	color: #00acde;
 	display: block;
 	height: 22px;
-	padding: 27px 50px;
+	padding: 10px 50px;
 	margin: 0 0 0px;
 	line-height: normal;
 	page-break-after:avoid;
@@ -94,22 +94,22 @@ table {
 	float: left;
 }
 
-.description p{ 
+.description p{
 	max-width:700px;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	word-wrap:break-word;
 
 }
 
-.description li{ 
+.description li{
 	max-width:870px;
-	font-size: 16px;
+	font-size: 14px;
 	word-wrap:break-word;
 	/*margin: 0 0 7px 0;*/
-	
+
 }
 
-#section2 p{ 
+#section2 p{
 	max-width:1000px;
 	word-wrap:break-word;
 	margin-top: 0px;
@@ -118,36 +118,35 @@ table {
 #headsection h1 {
 	display: block;
 	color: #3c3c3b;
-	font-size: 32px;
+	font-size: 20px;
 	/*float: left;*/
 	padding: 0;
 	margin: 0px 20px 0;
-	line-height: 100px;
+	line-height: 50px;
 }
 #headsection h2 {
-	font-size: 28px;
+	font-size: 18px;
 	color: #999;
 	float: left;
 	padding: 0  0 20px 20px;
 	background: none;
 }
 
-#section1 {
+/*#section1 {
 	padding-bottom: 7px;
-}
+}*/
 
 #section1 table {
 	float: left;
 	margin-right: 150px;
 	max-width: 405px;
 	border-collapse: collapse;
-	font-size: 18px;
 }
 #section1 table.rightTable {
 	margin-right: 0;
 }
 #section1 table td {
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 td.longWord {
 	-ms-word-break: break-all;
@@ -167,8 +166,31 @@ td.longWord {
 #section1 table td.label {
 	font-weight: bold;
 	/*padding-right: 35px;*/
-	
+
 }
+
+#section5 table td.label {
+	font-weight: bold;
+	/*padding-right: 35px;*/
+
+}
+
+#section5 {
+	padding-bottom: 7px;
+}
+
+#section5 table {
+	float: left;
+	margin-right: 150px;
+	max-width: 405px;
+	border-collapse: collapse;
+}
+#section5 table.rightTable {
+	margin-right: 0;
+}
+/*#section5 table td {
+	padding-bottom: 5px;
+}*/
 
 #section2 {
 	padding-bottom: 18px;
@@ -179,26 +201,26 @@ td.longWord {
 	width: 100%;
 	border-collapse: collapse;
 	/*margin-bottom: 20px;*/
-	font-size: 18px;
+	/*font-size: 18px;*/
 }
 .company {
   vertical-align: top;
   text-align: left;
   color: #333132;
-  font-size: 22px;
+  /*font-size: 22px;*/
   font-weight: 800;
   max-width: 100px;
 }
 .position {
 	font-weight: bold;
-	font-size: 20px;
-	padding-bottom: 10px;
+	/*font-size: 20px;*/
+	/*padding-bottom: 10px;*/
 	display: block;
-	border-bottom: 1px solid #525252;
+	/*border-bottom: 1px solid #525252;*/
 }
 .date {
 	text-align: right;
-	font-size: 16px;
+	/*font-size: 16px;*/
 	font-weight: bold;
 	font-style: italic;
 	padding-right: 20px;
@@ -219,8 +241,8 @@ table.skills.even {
 }
 .skillTitle {
 	vertical-align: top;
-	font-size: 18px;
-	font-weight: 700; 
+	font-size: 14px;
+	font-weight: 700;
 	padding-bottom: 15px;
 	color: #333132;
 	padding-top: 4px;
@@ -231,7 +253,7 @@ table.skills.even {
 	color: #333132;
 	text-align: right;
 	width: 294px;
-	font-size: 18px;
+	font-size: 14px;
 }
 .skillValue {
 	float: right;
@@ -239,7 +261,7 @@ table.skills.even {
 	width: 178px;
 	padding: 4px 11px;
 	min-height: 21px;
-	font-size: 22px;
+	font-size: 14px;
 }
 .skillValue.numeric {
 	background: url(boxOff.png) 0 center repeat-x;
@@ -271,18 +293,26 @@ table.skills.even {
   max-width: 100px;
 }
 
-.side-projects p{ 
+.side-projects p{
 	max-width:870px;
-	font-size: 16px;
+	font-size: 14px;
 	word-wrap:break-word;
 	margin: 0 0 7px 20px;
 
 }
 
-.side-projects li{ 
+.side-projects li{
 	max-width:870px;
-	font-size: 16px;
+	font-size: 14px;
 	word-wrap:break-word;
 	margin: 0 0 0px 20px;
-	
+
+}
+
+table {
+font-size: 14px
+}
+
+p {
+	margin: 0 0 0 0
 }
