@@ -1,5 +1,7 @@
-#Emad Mokhtar's Resume
-My own resume in PDF and HTML format.
+# Emad Mokhtar's Resume
 
-#Open Source
-Feel free to use it as you like.
+This is my own resume template. It is in HTML, and you can print it into PDF format.
+
+# Open Source
+
+It is open source, so feel free to use it if you like.
