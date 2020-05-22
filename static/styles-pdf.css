@@ -165,7 +165,7 @@ td.longWord {
 }
 #section1 table td.label {
 	font-weight: bold;
-	/*padding-right: 35px;*/
+	padding-right: 35px
 
 }
 
@@ -285,7 +285,7 @@ table.skills.even {
 	padding-right: 50px;
 }
 
-#side-projects-name {
+.side-projects-name {
   vertical-align: top;
   text-align: left;
   color: #333132;
